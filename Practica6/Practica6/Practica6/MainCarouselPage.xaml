@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica6.MainCarouselPage">
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="Yoshi.png" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG1" Clicked="Like1_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG1" Clicked="NoLike1_Clicked"></Button>
+                
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="imagends.jpg" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG2" Clicked="Like2_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG2" Clicked="NoLike2_Clicked"></Button>
+                
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 3" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="imagen3.jpeg" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG3" Clicked="Like3_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG3" Clicked="NoLike3_Clicked"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 4" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="imagen4.jpg" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG4" Clicked="Like4_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG4" Clicked="NoLike4_Clicked"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 5" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="imagen5.jpg" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG5" Clicked="Like5_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG5" Clicked="NoLike5_Clicked"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 6" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="imagen6.jpg" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG6" Clicked="Like6_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG6" Clicked="NoLike6_Clicked"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 7" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="imagen7.jpg" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG7" Clicked="Like7_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG7" Clicked="NoLike7_Clicked"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 8" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="imagen8.jpg" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG8" Clicked="Like8_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG8" Clicked="NoLike8_Clicked"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 9" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="imagen9.jpg" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG9" Clicked="Like9_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG9" Clicked="NoLike9_Clicked"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Imagen 10" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Image Source="imagen10.jpg" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center"></Image>
+                <Button Text="Me Gusta" x:Name="MG10" Clicked="Like10_Clicked"></Button>
+                <Button Text="No me Gusta" x:Name="NMG10" Clicked="NoLike10_Clicked"></Button>
+                <Button Text="Validar" x:Name="Validar" Clicked="Validar_Clicked"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+</CarouselPage>
